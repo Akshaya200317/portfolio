@@ -1,0 +1,229 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navbar Styles */
+nav {
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+nav .logo a {
+    font-size: 1.8em;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 10px 15px;
+}
+
+nav .nav-links a:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Header Styles */
+header {
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    padding: 100px 0;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.hero-text h2 {
+    font-size: 4em;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.hero-image img {
+    width: 350px;
+    height: auto;
+    border-radius: 10%;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff6b6b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #ff3b3b;
+}
+th{
+    text-align: left;
+    gap: 5px;
+}
+/* Section Styles */
+section {
+    padding: 60px 20px;
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+section h2 {
+    text-align: left;
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    color: #333;
+    font-weight: 600;
+}
+
+/* Project Card Styles */
+.project-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-card {
+    width: 48%;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    padding: 20px;
+    text-align: center;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+}
+
+.project-card img {
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.project-card h3 {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+
+
+.project-card p {
+    color: #666;
+}
+.logos-container {
+    display: flex;
+    justify-content: center; /* Centers the logos horizontally */
+    align-items: center; /* Centers the logos vertically */
+    gap: 20px; /* Adds space between the logos */
+   
+}
+
+.skill-logo {
+    width: 100px;
+    height: auto;
+}
+
+
+
+/* Form Styles */
+form {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin: 15px 0 5px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 1em;
+    color: #333;
+}
+
+form button {
+    padding: 15px 30px;
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #ff3b3b;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
